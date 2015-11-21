@@ -1,0 +1,29 @@
+.background-color{
+	color: #f5
+}
+
+.jumbotron{
+	height:500px;
+	background-image:url('#woddsy branch image');
+	}
+.jumbotron h1{
+	color: #f5f9fa;
+	font-family:'Playfair Display SC', serif;
+	font-size: 70px;
+}
+.jumbotron p {
+    color:#f5f9fa;
+    font-size:20px;
+}
+
+.nav a {
+	color: #645351;
+	font-family:'Tangerine', serif;
+	font-size: 48px	;
+	font-weight: bold;
+	 padding-top:14px;
+    padding-bottom:14px;
+    padding-left:10px;
+    padding-right:10px;
+    text-transform:uppercase;
+}
