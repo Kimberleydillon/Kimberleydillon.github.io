@@ -1,19 +1,22 @@
 
 .body {
-	background-color:#f6f9f6;
-
+	background-color:#f5f9fa;
 }
 .jumbotron {
-	height:500px;
+	height:700px;
+	width:1024px;
 	background-image: url('images/woodsy-branch.jpg');
+	background-position: center; 
 	background-repeat:no-repeat;
 	background-color: #f5f9fa
 }
+
 .jumbotron h1{
 	color: #f5f9fa;
 	font-family:'Playfair Display SC', serif;
 	font-size: 70px;
 }
+
 .jumbotron p {
 	color: #f5f9fa;
 	font-size:20px;
@@ -35,3 +38,11 @@
 	padding-right:10px;
 	text-transform:uppercase;
 }
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color:#ffffff;
+    background-color:#607477;
+    }
+       .nav-pills > li.active > a:hover {
+            background-color: #b5c2c4;
+            color:black;
+        }
