@@ -2,13 +2,29 @@
 .body {
 	background-color:#f5f9fa;
 }
+/*.jumbotron {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+
+    background-color: #f5f9fa;
+    background-image: url('images/woodsy-branch.jpg');
+    background-size: cover;
+}*/
 .jumbotron {
 	height:700px;
-	width:1024px;
+	width:100%;
 	background-image: url('images/woodsy-branch.jpg');
 	background-position: center; 
 	background-repeat:no-repeat;
-	background-color: #f5f9fa
+	background-color: #f5f9fa;
+	background-size: cover;
 }
 
 .jumbotron h1{
