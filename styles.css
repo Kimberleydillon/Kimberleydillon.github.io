@@ -47,7 +47,7 @@
 	font-size:20px;
 }
 .nav {
-    padding-left: 18px;
+    padding-left: 0px;
     padding-top: 10px;
     padding-bottom: 10px;	
     list-style: none;
@@ -59,15 +59,16 @@
 	font-weight: bold;
 	padding-top:20 px;
 	padding-bottom:20px;
-	padding-left:10px;
-	padding-right:10px;
+	padding-left:0px;
+	padding-right:0px;
 	text-transform:uppercase;
 }
+
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     color:#ffffff;
     background-color:#607477;
     }
        .nav-pills > li.active > a:hover {
-            background-color: #b5c2c4;
-            color:black;
+            background-color:#ffffff;
+            color:#49585b;
         }
