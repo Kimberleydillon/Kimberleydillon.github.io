@@ -1,79 +1,83 @@
 
 .body {
-	background-color:#f5f9fa;
+    background-color: #f5f9fa;
 }
+
 .jumbotron {
-	height:30%;
-	width:100%;
-	/*background-image: url('images/woodsy-branch.jpg');*/
-	background-position: center; 
-	background-repeat:no-repeat;
-	background-color: #90d4ed;
-	background-size: cover;
-	    padding-top: 30px;
+    height: 30%;
+    width: 100%;
+    /*background-image: url('images/woodsy-branch.jpg');*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #90d4ed;
+    background-size: cover;
+    padding-top: 30px;
     padding-bottom: 48px
 }
+
 .jumbotron .container {
-	    margin-left: 40px;
+    margin-left: 40px;
 }
 
 .jumbotron h1 {
-	color: #f5f9fa;
-	font-family: 'Playfair Display SC', serif;
-	font-size: 70px;
-	margin-top: 2px;
-	margin-bottom: 5px;
-	/*     border-bottom: 20px;
+    color: #f5f9fa;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 70px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    /*     border-bottom: 20px;
      border-top: 20px;*/
 }
 
 .wrapper {
-	margin: 0 auto;
-	width: 80%;
-	text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
 }
 
 .image-gallery {
-	margin: 0 auto;
-	display: table;
+    margin: 0 auto;
+    display: table;
 }
 
 .primary,
 .thumbnails {
-	display: table-cell;
+    display: table-cell;
 }
 
 .thumbnails {
-	width: 300px;
+    width: 300px;
 
 }
 
 .primary {
-	width: 600px;
-	height: 400px;
-	background-color: #cccccc;
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
+    width: 600px;
+    height: 400px;
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .thumbnail:hover .thumbnail-image, .selected .thumbnail-image {
-	border: 4px solid #90d4ed;
+    border: 4px solid #90d4ed;
 }
 
 .thumbnail-image {
-	width: 100px;
-	height: 100px;
-	margin: 20px auto;
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-	border: 4px solid transparent;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*border: 4px solid transparent;*/
 }
 
-/*.jumbotron p {*/
-/*	color: #f5f9fa;*/
-/*	font-size:20px;*/
-/*}*/
+.thumbnail {
+    border: 1px solid #fcf8e3;
+}
 
+
+/*TODO Style html form for quanity*/
+/*TODO Style product description*/
 
