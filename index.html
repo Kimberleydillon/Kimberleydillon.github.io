@@ -7,7 +7,18 @@
 
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <link href='https://fonts.googleapis.com/css?family=Tangerine:400,700|Great+Vibes|Playfair+Display+SC:400,900,700' rel='stylesheet'type='text/css'> 
+  <link href='https://fonts.googleapis.com/css?family=Tangerine:400,700|Great+Vibes|Playfair+Display+SC:400,900,700' rel='stylesheet'type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $('.thumbnail').on('click', function() {
+            let clicked = $(this);
+            let newSelection = clicked.data('big');
+            let $img = $('.primary').css("background-image", "url(" + newSelection + ")");
+            clicked.parent().find('.thumbnail').removeClass('selected');
+            clicked.addClass('selected');
+            $('.primary').empty().append($img.hide().fadeIn('slow'));
+        });
+</script>
 </head>
 
 <body>
