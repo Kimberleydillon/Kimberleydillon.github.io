@@ -2,23 +2,8 @@
 .body {
 	background-color:#f5f9fa;
 }
-/*.jumbotron {
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
-
-    background-color: #f5f9fa;
-    background-image: url('images/woodsy-branch.jpg');
-    background-size: cover;
-}*/
 .jumbotron {
-	height:700px;
+	height:30%;
 	width:100%;
 	/*background-image: url('images/woodsy-branch.jpg');*/
 	background-position: center; 
@@ -32,43 +17,19 @@
 	    margin-left: 40px;
 }
 
-.jumbotron h1{
+.jumbotron h1 {
 	color: #f5f9fa;
-	font-family:'Playfair Display SC', serif;
+	font-family: 'Playfair Display SC', serif;
 	font-size: 70px;
-	    margin-top: 2px;
-    margin-bottom: 5px;
-   /*     border-bottom: 20px;
-    border-top: 20px;*/
+	margin-top: 2px;
+	margin-bottom: 5px;
+	/*     border-bottom: 20px;
+     border-top: 20px;*/
 }
 
-.jumbotron p {
-	color: #f5f9fa;
-	font-size:20px;
-}
-.nav {
-    padding-left: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;	
-    list-style: none;
-}
-.nav a {
-	color: #645351;
-	font-family:'Playfair Display SC', serif;
-	font-size: 20px	;
-	font-weight: bold;
-	padding-top:20 px;
-	padding-bottom:20px;
-	padding-left:0px;
-	padding-right:0px;
-	text-transform:uppercase;
-}
+/*.jumbotron p {*/
+/*	color: #f5f9fa;*/
+/*	font-size:20px;*/
+/*}*/
 
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-    color:#ffffff;
-    background-color:#607477;
-    }
-       .nav-pills > li.active > a:hover {
-            background-color:#ffffff;
-            color:#49585b;
-        }
+
