@@ -20,10 +20,10 @@
 .jumbotron {
 	height:700px;
 	width:100%;
-	background-image: url('images/woodsy-branch.jpg');
+	/*background-image: url('images/woodsy-branch.jpg');*/
 	background-position: center; 
 	background-repeat:no-repeat;
-	background-color: #f5f9fa;
+	background-color: #90d4ed;
 	background-size: cover;
 	    padding-top: 30px;
     padding-bottom: 48px
