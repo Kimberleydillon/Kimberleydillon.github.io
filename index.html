@@ -11,8 +11,8 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script type="text/javascript">
-        $().ready(function() {
-            $('.thumbnail').on('click', function () {
+        $().document.ready(function() {
+            $('a.thumbnail').on('click', function () {
                 let clicked = $(this);
                 let newSelection = clicked.data('big');
                 let $img = $('.primary').css("background-image", "url(" + newSelection + ")");
