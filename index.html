@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> </title> 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-  
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+          integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+          crossorigin="anonymous">
 
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <link href='https://fonts.googleapis.com/css?family=Tangerine:400,700|Great+Vibes|Playfair+Display+SC:400,900,700' rel='stylesheet'type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Tangerine:400,700|Great+Vibes|Playfair+Display+SC:400,900,700'
+          rel='stylesheet' type='text/css'>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script type="text/javascript">
-        $(document).ready(function() {
+        $(document).ready(function () {
             $('a.thumbnail').on('click', function () {
                 let clicked = $(this);
                 let newSelection = clicked.data('big');
@@ -21,50 +24,63 @@
                 $('.primary').empty().append($img.hide().fadeIn('slow'));
             });
         });
-</script>
+    </script>
 </head>
 
 <body>
+<div class="container">
+
+</div>
+</div>
+<div class="jumbotron">
     <div class="container">
+        <h1> Pin Store </h1>
+        <!--   <h1> Store </h1>-->
 
-     </div> 
-   </div> 
-   <div class="jumbotron">
-     <div class= "container">
-          <h1> Pin Store </h1> 
-      <!--   <h1> Store </h1>-->
-
-         <!--<img src="images/banner.png">-->
+        <!--<img src="images/banner.png">-->
     </div>
-  </div> 
+</div>
 
-  <img src="">
+<img src="">
 
-    <div class="wrapper">
-        <header>
-            <h1>Coffee Serge's Fantabulous Enamel Pin! </h1>
-            <p>Click on the thumbnail to view it larger on the right</p>
-        </header>
+<div class="wrapper">
+    <header>
+        <h1>Coffee Serge's Fantabulous Enamel Pin! </h1>
+        <p>Click on the thumbnail to view it larger on the right</p>
+    </header>
 
-        <div class="image-gallery">
-            <aside class="thumbnails">
-                <a href="#" class="selected thumbnail" data-big="images/coffeepin3.jpg">
-                    <div class="thumbnail-image" style="background-image: url('images/coffeepin3.jpg')"></div>
-                </a>
-                <a class="thumbnail" data-big="images/coffeepin2.jpg" href="#">
-                    <div class="thumbnail-image" style="background-image: url('images/coffeepin2.jpg')"></div>
-                </a>
-                <a href="#" class="thumbnail" data-big="images/coffeepin1.jpg">
-                    <div class="thumbnail-image" style="background-image: url('images/coffeepin1.jpg')"></div>
-                </a>
-            </aside>
+    <div class="image-gallery">
+        <aside class="thumbnails">
+            <a href="#" class="selected thumbnail" data-big="images/coffeepin3.jpg">
+                <div class="thumbnail-image" style="background-image: url('images/coffeepin3.jpg')"></div>
+            </a>
+            <a class="thumbnail" data-big="images/coffeepin2.jpg" href="#">
+                <div class="thumbnail-image" style="background-image: url('images/coffeepin2.jpg')"></div>
+            </a>
+            <a href="#" class="thumbnail" data-big="images/coffeepin1.jpg">
+                <div class="thumbnail-image" style="background-image: url('images/coffeepin1.jpg')"></div>
+            </a>
+        </aside>
 
-            <main class="primary" style="background-image: url('images/coffeepin3.jpg');"></main>
-        </div>
-
+        <main class="primary" style="background-image: url('images/coffeepin3.jpg');"></main>
     </div>
+
+
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="ZZ56YQ4VW32R6">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit"
+               alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+
+</div>
+
+
 <!--   <a href="http://journals.uvic.ca/index.php/verges/article/view/12155"> Read Her Published Artcle </a> on the importance of Russian identity's intersection with Arthouse cinema.  -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
+        integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
+        crossorigin="anonymous"></script>
 </body>
 </html>
 
