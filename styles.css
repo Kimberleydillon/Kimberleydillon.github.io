@@ -11,8 +11,8 @@
     background-repeat: no-repeat;
     background-color: #90d4ed;
     background-size: cover;
-   /* padding-top: 30px;
-    padding-bottom: 48px*/
+    padding-top: 30px;
+    padding-bottom: 48px
 }
 
 .jumbotron .container {
@@ -24,9 +24,9 @@
     font-family: 'Playfair Display SC', serif;
     font-size: 70px;
     margin-top: 2px;
-    margin-bottom: 5px;
+/*    margin-bottom: 5px;
      border-bottom: 20px;
-     border-top: 20px;
+     border-top: 20px;*/
 }
 
 .wrapper {
