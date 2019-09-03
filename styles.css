@@ -9,7 +9,7 @@
     background-image: url('images/banner.png');
     background-position: center;
     background-color: #90d4ed;
-   /* background-size: cover;*/
+    background-size: cover;
     /*padding-top: 30px;
     padding-bottom: 48px*/
 }
@@ -29,7 +29,7 @@
 .hero h1 {
     color: #f5f9fa;
     font-family: 'Playfair Display SC', serif;
-    font-size: 70px;
+    font-size: large;
     /*  margin-top: 2px;
        margin-bottom: 5px;*/
     /*     border-bottom: 20px;
