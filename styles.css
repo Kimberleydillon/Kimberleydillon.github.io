@@ -3,7 +3,7 @@
     background-color: #f5f9fa;
 }
 
-.jumbotron {
+.hero {
     height: 40%;
     width: 100%;
     background-image: url('images/banner.png');
@@ -15,18 +15,26 @@
     padding-bottom: 48px*/
 }
 
-.jumbotron .container {
-   /* margin-left: 40px;*/
+.column is-two-thirds h1 {
+    color: #f5f9fa;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 50px;
 }
 
-.jumbotron h1 {
+.column is-two-thirds p {
+    color: #f5f9fa;
+    font-family: 'Playfair Display SC', serif;
+    font-size: medium;
+}
+
+.hero h1 {
     color: #f5f9fa;
     font-family: 'Playfair Display SC', serif;
     font-size: 70px;
-  /*  margin-top: 2px;
-     margin-bottom: 5px;*/
-/*     border-bottom: 20px;
-     border-top: 20px;*/
+    /*  margin-top: 2px;
+       margin-bottom: 5px;*/
+    /*     border-bottom: 20px;
+         border-top: 20px;*/
 }
 
 .wrapper {
@@ -74,8 +82,8 @@
 }
 
 .thumbnail {
-	border: 0 none;
-	box-shadow: none;
+    border: 0 none;
+    box-shadow: none;
 }
 
 
