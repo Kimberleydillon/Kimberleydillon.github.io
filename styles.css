@@ -4,27 +4,27 @@
 }
 
 .jumbotron {
-    height: 30%;
+    height: 40%;
     width: 100%;
     background-image: url('images/banner.png');
     background-position: center;
     background-repeat: no-repeat;
     background-color: #90d4ed;
     background-size: cover;
-    padding-top: 30px;
-    padding-bottom: 48px
+    /*padding-top: 30px;
+    padding-bottom: 48px*/
 }
 
 .jumbotron .container {
-    margin-left: 40px;
+   /* margin-left: 40px;*/
 }
 
 .jumbotron h1 {
     color: #f5f9fa;
     font-family: 'Playfair Display SC', serif;
     font-size: 70px;
-    margin-top: 2px;
-     margin-bottom: 5px;
+  /*  margin-top: 2px;
+     margin-bottom: 5px;*/
 /*     border-bottom: 20px;
      border-top: 20px;*/
 }
