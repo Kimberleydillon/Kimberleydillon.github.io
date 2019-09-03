@@ -12,14 +12,22 @@
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
-            $('a.thumbnail').on('click', function () {
+            $('.thumbnail').on('click', function() {
+                let clicked = $(this);
+                let newSelection = clicked.data('big');
+                let $img = $('.primary').css("background-image","url(" + newSelection + ")");
+                clicked.parent().find('.thumbnail').removeClass('selected');
+                clicked.addClass('selected');
+                $('.primary').empty().append($img.hide().fadeIn('slow'));
+            });
+            /*$('a.thumbnail').on('click', function () {
                 let clicked = $(this);
                 let newSelection = clicked.data('big');
                 let $img = $('.primary').css("background-image", "url(" + newSelection + ")");
                 clicked.parent().find('.thumbnail').removeClass('selected');
                 clicked.addClass('selected');
                 $('.primary').empty().append($img.hide());
-            });
+            });*/
         });
     </script>
 </head>
@@ -41,6 +49,32 @@
     </div>
 </div>
 
+<div class="wrapper">
+    <header>
+        <h1>Product Image Gallery with Thumbnails</h1>
+        <p>Click on the thumbnail to view it larger on the right!</p>
+    </header>
+
+    <div class="image-gallery">
+        <aside class="thumbnails">
+            <a href="#" class="selected thumbnail" data-big="http://placekitten.com/420/600">
+                <div class="thumbnail-image" style="background-image: url(http://placekitten.com/420/600)"></div>
+            </a>
+            <a href="#" class="thumbnail" data-big="http://placekitten.com/450/600">
+                <div class="thumbnail-image" style="background-image: url(http://placekitten.com/450/600)"></div>
+            </a>
+            <a href="#" class="thumbnail" data-big="http://placekitten.com/460/700">
+                <div class="thumbnail-image" style="background-image: url(http://placekitten.com/460/700)"></div>
+            </a>
+        </aside>
+
+        <main class="primary" style="background-image: url('http://placekitten.com/420/600');"></main>
+    </div>
+
+</div>
+
+
+
 <!--<div class="container">
     <div class="row">
         <div class="col">-->
@@ -50,7 +84,7 @@
                     <p>Click on the thumbnail to view it larger on the right</p>
                 </header>-->
 
-                <div class="image-gallery">
+<!--                <div class="image-gallery">
                     <aside class="thumbnails">
                         <a href="#" class="selected thumbnail" data-big="images/coffeepin3.jpg">
                             <div class="thumbnail-image" style="background-image: url('images/coffeepin3.jpg')"></div>
@@ -63,7 +97,7 @@
                         </a>
                     </aside>
                     <main class="primary" style="background-image: url('images/coffeepin3.jpg');"></main>
-                </div>
+                </div>-->
           <!-- </div>-->
 
 <!--        </div>
