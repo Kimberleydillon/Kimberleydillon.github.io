@@ -18,7 +18,7 @@
                 let $img = $('.primary').css("background-image","url(" + newSelection + ")");
                 clicked.parent().find('.thumbnail').removeClass('selected');
                 clicked.addClass('selected');
-                $('.primary').empty().append($img.hide().fadeIn('slow'));
+                $('.primary').empty().append($img.hide().fadeIn(400));
             });
             /*$('a.thumbnail').on('click', function () {
                 let clicked = $(this);
