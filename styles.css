@@ -8,20 +8,19 @@
     width: 100%;
     background-image: url('images/banner.png');
     background-position: center;
-    background-repeat: no-repeat;
     background-color: #90d4ed;
-    background-size: cover;
+   /* background-size: cover;*/
     /*padding-top: 30px;
     padding-bottom: 48px*/
 }
 
-.column is-two-thirds h1 {
+.image-gallery-text h1 {
     color: #f5f9fa;
     font-family: 'Playfair Display SC', serif;
     font-size: 50px;
 }
 
-.column is-two-thirds p {
+.image-gallery-text p {
     color: #f5f9fa;
     font-family: 'Playfair Display SC', serif;
     font-size: medium;
