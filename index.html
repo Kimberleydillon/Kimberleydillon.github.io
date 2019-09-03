@@ -2,8 +2,9 @@
 <html>
 <head>
     <title></title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
-         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css"
+          integrity="sha256-ujE/ZUB6CMZmyJSgQjXGCF4sRRneOimQplBVLu8OU5w=" crossorigin="anonymous"/>
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href='https://fonts.googleapis.com/css?family=Tangerine:400,700|Great+Vibes|Playfair+Display+SC:400,900,700'
@@ -12,29 +13,34 @@
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
-            $('.thumbnail').on('click', function() {
-                let clicked = $(this);
-                let newSelection = clicked.data('big');
-                let $img = $('.primary').css("background-image","url(" + newSelection + ")");
-                clicked.parent().find('.thumbnail').removeClass('selected');
-                clicked.addClass('selected');
-                $('.primary').empty().append($img.hide().fadeIn('slow'));
-            });
-            /*$('a.thumbnail').on('click', function () {
+            $('.thumbnail').on('click', function () {
                 let clicked = $(this);
                 let newSelection = clicked.data('big');
                 let $img = $('.primary').css("background-image", "url(" + newSelection + ")");
                 clicked.parent().find('.thumbnail').removeClass('selected');
                 clicked.addClass('selected');
-                $('.primary').empty().append($img.hide());
-            });*/
+                $('.primary').empty().append($img.hide().fadeIn('slow'));
+            });
         });
     </script>
 </head>
 
 <body>
+<section class="section">
+    <div class="container">
+        <h1 class="title">
+            Hello World
+        </h1>
+        <p class="subtitle">
+            My first website with <strong>Bulma</strong>!
+        </p>
+    </div>
+</section>
+</body>
+<!--
+<body>
 <div class="jumbotron">
-<div class="container">
+    <div class="container">
         <div class="row">
             <div class="col">
                 <h1> Pin Store </h1>
@@ -48,7 +54,6 @@
         </div>
     </div>
 </div>
-
 
 
 <div class="container">
@@ -74,7 +79,7 @@
                     </aside>
                     <main class="primary" style="background-image: url('images/coffeepin3.jpg');"></main>
                 </div>
-           </div>
+            </div>
 
         </div>
         <div class="col">Column 2
@@ -82,60 +87,7 @@
 
     </div>
 </div>
-<!--<div class="w-100"></div>-->
-   <!-- <div class="wrapper">
-            <header>
-                <h1>Coffee Serge's Fantabulous Enamel Pin! </h1>
-                <p>Click on the thumbnail to view it larger on the right</p>
-            </header>
-
-            <div class="image-gallery">
-                <aside class="thumbnails">
-                    <a href="#" class="selected thumbnail" data-big="images/coffeepin3.jpg">
-                        <div class="thumbnail-image" style="background-image: url('images/coffeepin3.jpg')"></div>
-                    </a>
-                    <a class="thumbnail" data-big="images/coffeepin2.jpg" href="#">
-                        <div class="thumbnail-image" style="background-image: url('images/coffeepin2.jpg')"></div>
-                    </a>
-                    <a href="#" class="thumbnail" data-big="images/coffeepin1.jpg">
-                        <div class="thumbnail-image" style="background-image: url('images/coffeepin1.jpg')"></div>
-                    </a>
-                </aside>
-
-                <main class="primary" style="background-image: url('images/coffeepin3.jpg');"></main>
-            </div>
-        </div>
-
-</div>-->
-
-
-
-
-
-
-
-<!--<div class="wrapper">
-    <header>
-        <h1>Coffee Serge's Fantabulous Enamel Pin! </h1>
-        <p>Click on the thumbnail to view it larger on the right</p>
-    </header>
-
-    <div class="image-gallery">
-        <aside class="thumbnails">
-            <a href="#" class="selected thumbnail" data-big="images/coffeepin3.jpg">
-                <div class="thumbnail-image" style="background-image: url('images/coffeepin3.jpg')"></div>
-            </a>
-            <a class="thumbnail" data-big="images/coffeepin2.jpg" href="#">
-                <div class="thumbnail-image" style="background-image: url('images/coffeepin2.jpg')"></div>
-            </a>
-            <a href="#" class="thumbnail" data-big="images/coffeepin1.jpg">
-                <div class="thumbnail-image" style="background-image: url('images/coffeepin1.jpg')"></div>
-            </a>
-        </aside>
-
-        <main class="primary" style="background-image: url('images/coffeepin3.jpg');"></main>
-    </div>
-&ndash;&gt;-->
+-->
 
 
 <!--SandBox Test Button-->
@@ -145,8 +97,6 @@
 <!-- <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">-->
 <!-- <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">-->
 <!-- </form>-->
-<!--
--->
 
 
 <!--Prod Button-->
@@ -159,16 +109,7 @@
     </form>-->
 
 
-<!--   <a href="http://journals.uvic.ca/index.php/verges/article/view/12155"> Read Her Published Artcle </a> on the importance of Russian identity's intersection with Arthouse cinema.  -->
-<!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-
-</body>
+<!--</body>-->
 </html>
 
 <!--TODO Add product description to the right of gallery -->
