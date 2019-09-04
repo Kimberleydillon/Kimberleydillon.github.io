@@ -16,7 +16,7 @@
 .hero-body .container h1{
     font-family: 'Playfair Display SC', serif;
     color: #f5f9fa;
-    size: 70px;
+    size: 150px;
     width:fit-content;
     position: relative;
     bottom: 30px;
@@ -30,7 +30,7 @@
 }
 
 .image-gallery-text h1 {
-    font-family: serif;
+    font-family: 'Playfair Display SC', serif;
 }
 
 .image-gallery-text p {
