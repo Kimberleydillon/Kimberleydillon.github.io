@@ -13,11 +13,12 @@
     /*padding-top: 30px;
     padding-bottom: 48px*/
 }
-.hero-body .container h1 .title is-large{
+.hero-body .container .hero-title{
     font-family: 'Playfair Display SC', serif;
     color: #f5f9fa;
+    size: 70px;
     width:fit-content;
-    position: relative;
+    position:relative;
     bottom: 30px;
 }
 
