@@ -89,6 +89,9 @@
     box-shadow: none;
 }
 
+.paypal-button{
+    margin: 10px;
+}
 
 /*TODO Style html form for quanity*/
 /*TODO Style product description*/
