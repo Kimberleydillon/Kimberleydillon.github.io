@@ -44,9 +44,9 @@
 
 
 .image-gallery {
-    margin: 0 auto;
+    margin: 15px;
     display: table;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 
 .primary,
