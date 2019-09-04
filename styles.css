@@ -14,7 +14,7 @@
     padding-bottom: 48px*/
 }
 .hero .title{
-    font-family: 'Playfair Display SC', serif;
+    $title-family: 'Playfair Display SC', serif;
     background-color: #f5f9fa;
     size: 70px;
 }
