@@ -4,7 +4,7 @@
 }
 
 .hero {
-    height: 50%;
+    height: 60%;
     width: 100%;
     background-image: url('images/banner.png');
     background-position: center;
@@ -13,13 +13,13 @@
     /*padding-top: 30px;
     padding-bottom: 48px*/
 }
-h1 .title{
+.hero-body h1 .title{
     font-family: 'Playfair Display SC', serif;
     color: #f5f9fa;
     size: 70px;
     width:fit-content;
     position:relative;
-    bottom: 50px;
+    top: 50px;
    /* margin: 20px;*/
 }
 
