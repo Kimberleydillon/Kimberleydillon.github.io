@@ -13,7 +13,7 @@
     /*padding-top: 30px;
     padding-bottom: 48px*/
 }
-.hero h1{
+.hero .hero-body .container h1 .title{
     font-family: 'Playfair Display SC', serif;
     color: #f5f9fa;
     size: 70px;
