@@ -13,7 +13,7 @@
     /*padding-top: 30px;
     padding-bottom: 48px*/
 }
-.hero-body .container h1 .title .is-large{
+.hero-body .container h1 .title is-large{
     font-family: 'Playfair Display SC', serif;
     color: #f5f9fa;
     width:fit-content;
