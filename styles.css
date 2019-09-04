@@ -4,7 +4,7 @@
 }
 
 .hero {
-    height: 20%;
+    height: 35%;
     width: 100%;
     background-image: url('images/banner.png');
     background-position: center;
@@ -14,9 +14,10 @@
     padding-bottom: 48px*/
 }
 .hero .title{
-    $title-family: 'Playfair Display SC', serif;
-    background-color: #f5f9fa;
+    font-family: 'Playfair Display SC', serif;
+    color: #f5f9fa;
     size: 70px;
+    width: 35%;
 }
 
 .image-gallery-text{
