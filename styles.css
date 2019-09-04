@@ -13,7 +13,7 @@
     /*padding-top: 30px;
     padding-bottom: 48px*/
 }
-.hero-body .container h1{
+.hero-body .container h1 .title{
     font-family: 'Playfair Display SC', serif;
     color: #f5f9fa;
     size: 150px;
@@ -22,12 +22,20 @@
     bottom: 30px;
 }
 
+.paypal-button{
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-botom:10px
+}
+
 .image-gallery-text{
     margin-top: 20px;
     margin-right: 30px;
     margin-left: 15px;
     padding: 10px;
 }
+
 
 .image-gallery-text h1 {
     font-family: 'Playfair Display SC', serif;
@@ -89,9 +97,6 @@
     box-shadow: none;
 }
 
-.paypal-button{
-    margin: 10px;
-}
 
 /*TODO Style html form for quanity*/
 /*TODO Style product description*/
