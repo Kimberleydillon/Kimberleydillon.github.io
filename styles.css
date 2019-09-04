@@ -31,7 +31,7 @@
 }
 
 .image-gallery-text{
-    margin-top: 20px;
+    margin-top: 40px;
     margin-right: 30px;
     margin-left: 15px;
     padding: 10px;
@@ -55,7 +55,7 @@
 
 
 .image-gallery {
-    margin-top: 20px;
+    margin-top: 40px;
     display: table;
     padding-right: 10px;
 }
