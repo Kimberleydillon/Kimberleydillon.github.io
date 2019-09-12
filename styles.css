@@ -23,6 +23,10 @@
    /* margin: 20px;*/
 }
 
+ul .descrip_list{
+    list-style-type: disc;
+}
+
 .paypal-button{
     margin-left: 50px;
     margin-right: 10px;
