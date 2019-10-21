@@ -23,6 +23,14 @@
    /* margin: 20px;*/
 }
 
+.featureP {
+    font-family: "Playfair Display SC";
+    color: #5f6a7b;
+    font-size: 25px;
+    padding: 15px;
+    font-weight: 600;
+}
+
 ul .descrip_list{
     list-style-type: disc;
 }
