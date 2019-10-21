@@ -23,16 +23,18 @@
    /* margin: 20px;*/
 }
 
-.featureP {
+.featureP h1 {
     font-family: "Playfair Display SC";
     color: #5f6a7b;
     font-size: 25px;
     padding: 15px;
-    font-weight: 600;
+    font-weight:600;
+    padding-left: 15px;
 }
 
 ul .descrip_list{
     list-style-type: disc;
+    font-weight: 300;
 }
 
 .paypal-button{
@@ -120,7 +122,4 @@ ul .descrip_list{
  .descrip_list li {
      padding-left: 15px;
  }
-
-/*TODO Style html form for quanity*/
-/*TODO Style product description*/
 
