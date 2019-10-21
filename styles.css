@@ -1,4 +1,3 @@
-
 .body {
     background-color: #f5f9fa;
 }
@@ -11,6 +10,7 @@
     background-color: #90d4ed;
     background-size: cover;
 }
+
 .hero-body .custom{
     font-family: 'Playfair Display SC', serif;
     color: #f5f9fa;
@@ -20,7 +20,7 @@
     top: 50px;
 }
 
-.column is-half h1 {
+#feature h1 {
     font-family: "Playfair Display SC";
     color: #5f6a7b;
     font-size: 25px;
@@ -63,8 +63,6 @@ ul .descrip_list{
     text-align: center;
 }
 
-
-
 .image-gallery {
     margin-top: 40px;
     display: table;
@@ -101,7 +99,6 @@ ul .descrip_list{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    /*border: 4px solid transparent;*/
 }
 
 .thumbnail {
@@ -116,7 +113,7 @@ ul .descrip_list{
     font-weight: 600;
     line-height: 1.125;
 }
- ul .descrip_list li {
+.descrip_list_item li {
      padding-left: 15px;
  }
 
