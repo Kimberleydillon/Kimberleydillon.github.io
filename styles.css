@@ -102,6 +102,16 @@ ul .descrip_list{
     box-shadow: none;
 }
 
+.title {
+    color: #5f6a7b;
+    font-size: 25px;
+    padding: 15px;
+    font-weight: 600;
+    line-height: 1.125;
+}
+ .descrip_list li {
+     padding-left: 15px;
+ }
 
 /*TODO Style html form for quanity*/
 /*TODO Style product description*/
