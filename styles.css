@@ -45,7 +45,7 @@ ul .descrip_list {
     font-weight: 300;
 }
 
-li descrip_list_item{
+ descrip_list_item p {
     padding-left: 15px;
 }
 
