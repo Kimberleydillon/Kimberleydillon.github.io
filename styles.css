@@ -57,7 +57,6 @@ ul .descrip_list {
 }
 
 .image-gallery-text {
-    margin-top: 40px;
     margin-right: 30px;
     margin-left: 15px;
     padding: 10px;
@@ -70,6 +69,7 @@ ul .descrip_list {
 
 .image-gallery-text p {
     font-family: serif;
+    font-size: 15px;
 }
 
 .wrapper {
