@@ -35,9 +35,9 @@
     font-family: "Playfair Display SC";
     color: #5f6a7b;
     font-size: 25px;
-    padding: 15px;
     font-weight: 600;
-    padding-left: 15px;
+    margin-top: 25px;
+    margin-bottom: 15px;
     text-transform: uppercase;
 }
 
@@ -51,10 +51,11 @@ ul .descrip_list {
 }
 
 .paypal-button {
-    margin-left: 50px;
-    margin-right: 10px;
-    margin-top: 20px;
-    margin-botom: 10px
+    padding: 15px;
+    /*margin-left: 50px;*/
+    /*margin-right: 10px;*/
+    /*margin-top: 20px;*/
+    /*margin-botom: 10px*/
 }
 
 .image-gallery-text {
