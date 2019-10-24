@@ -125,6 +125,7 @@ ul .descrip_list {
 }
 
 .title {
+    font-family: "Playfair Display SC";
     color: #5f6a7b;
     font-size: 25px;
     padding-top: 15px;
