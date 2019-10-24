@@ -20,25 +20,24 @@
     top: 50px;
 }
 
-#feature h1 {
-    font-family: "Playfair Display SC";
-    color: #5f6a7b;
-    font-size: 25px;
-    padding: 15px;
-    font-weight: 600;
-    padding-left: 15px;
-    margin-left: 20px;
-    text-transform: uppercase;
-}
+/*#feature h1 {*/
+/*    font-family: "Playfair Display SC";*/
+/*    color: #5f6a7b;*/
+/*    font-size: 25px;*/
+/*    padding: 15px;*/
+/*    font-weight: 600;*/
+/*    padding-left: 15px;*/
+/*    margin-left: 20px;*/
+/*    text-transform: uppercase;*/
+/*}*/
 
 #coffeePin h1 {
     font-family: "Playfair Display SC";
     color: #5f6a7b;
     font-size: 25px;
     font-weight: 600;
-    margin-top: 25px;
-    margin-bottom: 15px;
     text-transform: uppercase;
+    margin-top: 25px;
 }
 
 ul .descrip_list {
@@ -47,11 +46,12 @@ ul .descrip_list {
 }
 
 #descrip p {
-    margin-left: 15px;
+    margin-left: 35px;
 }
 
 .paypal-button {
-    padding: 15px;
+    /*padding: 15px;*/
+    margin-left: 15px;
     /*margin-left: 50px;*/
     /*margin-right: 10px;*/
     /*margin-top: 20px;*/
