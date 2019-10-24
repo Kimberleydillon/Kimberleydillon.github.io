@@ -127,7 +127,8 @@ ul .descrip_list {
 .title {
     color: #5f6a7b;
     font-size: 25px;
-    padding: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
     font-weight: 600;
     line-height: 1.125;
 }
