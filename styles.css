@@ -68,6 +68,8 @@ ul {
 .image-gallery-text p {
     font-family: serif;
     font-size: 15px;
+    padding-bottom: 10px;
+    padding-top: 5px;
 }
 
 .wrapper {
