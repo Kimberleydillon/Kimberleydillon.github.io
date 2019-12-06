@@ -30,8 +30,9 @@
 }
 
 ul .descrip_list {
-    list-style-type: disc;
     font-weight: 300;
+    list-style-type: disc;
+    list-style-position: inside;
 }
 
 #descrip p {
@@ -118,7 +119,7 @@ ul .descrip_list {
     line-height: 1.125;
 }
 
-.FAQ{
+.FAQ {
     display: flex;
     flex-direction: column;
     margin: 10px;
@@ -129,14 +130,16 @@ ul .descrip_list {
 }
 
 .FAQ h2 {
-        font-family: "Playfair Display SC";
-        color: #5f6a7b;
-        font-size: 20px;
-        font-weight: 600;
-        text-transform: uppercase;
-        margin-top: 25px;
-    }
-.FAQ p{
+    font-family: "Playfair Display SC";
+    color: #5f6a7b;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.FAQ p {
     padding-bottom: 10px;
     padding-top: 5px;
 }
