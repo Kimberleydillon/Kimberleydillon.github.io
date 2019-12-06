@@ -28,10 +28,12 @@
     text-transform: uppercase;
     margin-top: 25px;
 }
-.header is-large ul {
+
+ul {
     font-weight: 300;
     list-style-type: disc;
-    list-style-position: inside;
+    padding-right: 20px;
+
 }
 
 #descrip p {
@@ -142,6 +144,7 @@
 }
 
 .FAQ p {
+    font-family: serif;
     padding-bottom: 10px;
     padding-top: 5px;
 }
