@@ -27,6 +27,11 @@
     font-weight: 800;
     text-transform: uppercase;
     margin-top: 25px;
+    padding-bottom: 5px;
+}
+
+#coffeePin p {
+    padding-bottom: 5px;
 }
 
 ul {
