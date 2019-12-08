@@ -41,6 +41,10 @@ ul {
 
 }
 
+li{
+    margin-left: 10%;
+}
+
 #descrip p {
     /*margin-left: 35px;*/
     /*padding-bottom: 10px;*/
