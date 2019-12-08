@@ -44,7 +44,8 @@ ul {
 li{
     margin-left: 10%;
 }
-#product-div{
+
+#product-div div {
     float: right;
     margin-right: 20%;
 }
