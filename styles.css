@@ -44,6 +44,10 @@ ul {
 li{
     margin-left: 10%;
 }
+#product-div{
+    float: right;
+    margin-right: 20%;
+}
 
 #descrip p {
     /*margin-left: 35px;*/
