@@ -45,7 +45,7 @@ li{
     margin-left: 10%;
 }
 
-#product-div div {
+.column is-half #product-div div {
     float: right;
     margin-right: 20%;
 }
