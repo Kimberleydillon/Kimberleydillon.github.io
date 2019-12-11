@@ -87,23 +87,66 @@ li {
     text-align: center;
 }
 
+/*.image-gallery {*/
+/*    margin-top: 40px;*/
+/*    display: table;*/
+/*    padding-right: 10px;*/
+/*}*/
+
+/*!*.primary {*!*/
+/*!*     background-size: contain;*!*/
+/*!*}*!*/
+
+/*.primary*/
+/*.thumbnails {*/
+/*    display: table-cell;*/
+/*}*/
+
+/*.thumbnails {*/
+/*    width: 300px;*/
+/*}*/
+
+/*.primary {*/
+/*    width: 600px;*/
+/*    height: 400px;*/
+/*    background-color: #cccccc;*/
+/*    background-size: cover;*/
+/*    background-position: center center;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+
+/*.thumbnail:hover .thumbnail-image, .selected .thumbnail-image {*/
+/*    border: 4px solid #90d4ed;*/
+/*}*/
+
+/*.thumbnail-image {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    margin: 20px auto;*/
+/*    background-size: cover;*/
+/*    background-position: center center;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+
+/*.thumbnail {*/
+/*    border: 0 none;*/
+/*    box-shadow: none;*/
+/*}*/
+
 .image-gallery {
     margin-top: 40px;
     display: table;
     padding-right: 10px;
 }
 
-/*.primary {*/
-/*     background-size: contain;*/
-/*}*/
-
-.primary
+.primary,
 .thumbnails {
     display: table-cell;
 }
 
 .thumbnails {
     width: 300px;
+
 }
 
 .primary {
