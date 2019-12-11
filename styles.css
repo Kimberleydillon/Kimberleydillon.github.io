@@ -108,7 +108,7 @@ li p{
 .thumbnails {
     display: flex;
     flex-direction: row;
-    flex-grow: 1;
+    justify-content: center;
 }
 
 .thumbnails {
@@ -146,7 +146,9 @@ li p{
 .thumbnail {
     border: 0 none;
     box-shadow: none;
-    flex-grow: 1;
+    /*flex-grow: 1;*/
+    /*justify-content: center;*/
+    margin-right: 2%;
 }
 
 .title {
