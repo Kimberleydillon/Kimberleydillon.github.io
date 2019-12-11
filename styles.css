@@ -49,6 +49,12 @@ li {
     float: right;
     margin-right: 20%;
 }
+@media screen and (max-width: 768px) {
+    #product-div div {
+        float: none;
+        margin-left: 10%;
+    }
+}
 
 #descrip p {
     /*margin-left: 35px;*/
