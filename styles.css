@@ -67,6 +67,10 @@ li p{
     text-transform: capitalize;
 }
 
+#descrip p span{
+    text-transform: none;
+}
+
 .paypal-button {
     margin-left: 15px;
 }
