@@ -57,8 +57,6 @@ li {
 }
 
 #descrip p {
-    /*margin-left: 35px;*/
-    /*padding-bottom: 10px;*/
     padding-top: 5px;
     font-family: serif;
 }
@@ -70,7 +68,6 @@ li {
 .image-gallery-text {
     margin-right: 30px;
     margin-left: 15px;
-    /*padding-bottom: 10px;*/
     padding-top: 5px;
 }
 
@@ -92,52 +89,6 @@ li {
     width: 80%;
     text-align: center;
 }
-
-/*.image-gallery {*/
-/*    margin-top: 40px;*/
-/*    display: table;*/
-/*    padding-right: 10px;*/
-/*}*/
-
-/*!*.primary {*!*/
-/*!*     background-size: contain;*!*/
-/*!*}*!*/
-
-/*.primary*/
-/*.thumbnails {*/
-/*    display: table-cell;*/
-/*}*/
-
-/*.thumbnails {*/
-/*    width: 300px;*/
-/*}*/
-
-/*.primary {*/
-/*    width: 600px;*/
-/*    height: 400px;*/
-/*    background-color: #cccccc;*/
-/*    background-size: cover;*/
-/*    background-position: center center;*/
-/*    background-repeat: no-repeat;*/
-/*}*/
-
-/*.thumbnail:hover .thumbnail-image, .selected .thumbnail-image {*/
-/*    border: 4px solid #90d4ed;*/
-/*}*/
-
-/*.thumbnail-image {*/
-/*    width: 100px;*/
-/*    height: 100px;*/
-/*    margin: 20px auto;*/
-/*    background-size: cover;*/
-/*    background-position: center center;*/
-/*    background-repeat: no-repeat;*/
-/*}*/
-
-/*.thumbnail {*/
-/*    border: 0 none;*/
-/*    box-shadow: none;*/
-/*}*/
 
 .image-gallery {
     margin-top: 40px;
