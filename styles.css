@@ -92,13 +92,15 @@ li {
 
 .image-gallery {
     margin-top: 40px;
-    display: table;
+    display: flex;
+    flex-direction: column;
     padding-right: 10px;
 }
 
 .primary,
 .thumbnails {
-    display: table-cell;
+    display: flex;
+    flex-direction: row;
 }
 
 .thumbnails {
