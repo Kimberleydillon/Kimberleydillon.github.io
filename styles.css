@@ -52,7 +52,7 @@ li {
 @media screen and (max-width: 768px) {
     #product-div div {
         float: none;
-        margin-left: 0%;
+        margin-left: 0px;
     }
 }
 
