@@ -108,10 +108,11 @@ li p{
 .thumbnails {
     display: flex;
     flex-direction: row;
+    flex-grow: 1;
 }
 
 .thumbnails {
-    width: 600px;
+    width: auto;
 
 }
 
@@ -121,7 +122,7 @@ li p{
 }
 
 .primary {
-    width: 600px;
+    width: 95%;;
     height: 400px;
     background-color: #cccccc;
     background-size: cover;
