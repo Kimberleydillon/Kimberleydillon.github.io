@@ -45,14 +45,16 @@ li {
     margin-left: 10%;
 }
 
-li p{
+li p {
     font-size: 14px;
     text-transform: uppercase;
 }
+
 #product-div div {
     float: right;
     margin-right: 20%;
 }
+
 @media screen and (max-width: 768px) {
     #product-div div {
         float: none;
@@ -67,7 +69,7 @@ li p{
     text-transform: capitalize;
 }
 
-#descrip p span{
+#descrip p span {
     text-transform: none;
 }
 
