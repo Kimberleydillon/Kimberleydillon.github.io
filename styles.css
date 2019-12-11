@@ -59,6 +59,8 @@ li {
 #descrip p {
     padding-top: 5px;
     font-family: serif;
+    font-size: 14px;
+    text-transform: uppercase;
 }
 
 .paypal-button {
@@ -104,8 +106,13 @@ li {
 }
 
 .thumbnails {
-    width: 300px;
+    width: 600px;
 
+}
+
+.main {
+    padding: 10px;
+    margin-left: 10%;
 }
 
 .primary {
@@ -133,6 +140,7 @@ li {
 .thumbnail {
     border: 0 none;
     box-shadow: none;
+    flex-grow: 1;
 }
 
 .title {
