@@ -194,7 +194,8 @@ li p {
 }
 
 .paypal-button {
-    background-image: url('images/sold-out.png');
+    background-repeat: no-repeat;
+    padding: 5px;
 }
 
 
