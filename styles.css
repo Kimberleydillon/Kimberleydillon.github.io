@@ -1,74 +1,203 @@
-
 .body {
-	background-color:#f5f9fa;
-}
-/*.jumbotron {
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
-
     background-color: #f5f9fa;
-    background-image: url('images/woodsy-branch.jpg');
+}
+
+.hero {
+    height: 60%;
+    width: 100%;
+    background-image: url('images/banner.png');
+    background-position: center;
+    background-color: #90d4ed;
     background-size: cover;
-}*/
-.jumbotron {
-	height:700px;
-	width:100%;
-	background-image: url('images/woodsy-branch.jpg');
-	background-position: center; 
-	background-repeat:no-repeat;
-	background-color: #f5f9fa;
-	background-size: cover;
-	    padding-top: 30px;
-    padding-bottom: 48px
-}
-.jumbotron .container {
-	    margin-left: 40px;
 }
 
-.jumbotron h1{
-	color: #f5f9fa;
-	font-family:'Playfair Display SC', serif;
-	font-size: 70px;
-	    margin-top: 2px;
-    margin-bottom: 5px;
-   /*     border-bottom: 20px;
-    border-top: 20px;*/
+.hero-body .custom {
+    font-family: 'Playfair Display SC', serif;
+    color: #f5f9fa;
+    size: 70px;
+    width: fit-content;
+    position: relative;
+    top: 50px;
 }
 
-.jumbotron p {
-	color: #f5f9fa;
-	font-size:20px;
-}
-.nav {
-    padding-left: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;	
-    list-style: none;
-}
-.nav a {
-	color: #645351;
-	font-family:'Playfair Display SC', serif;
-	font-size: 20px	;
-	font-weight: bold;
-	padding-top:20 px;
-	padding-bottom:20px;
-	padding-left:0px;
-	padding-right:0px;
-	text-transform:uppercase;
+#coffeePin h1 {
+    font-family: "Playfair Display SC";
+    color: #5f6a7b;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 25px;
+    padding-bottom: 5px;
 }
 
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-    color:#ffffff;
-    background-color:#607477;
+#coffeePin p {
+    padding-bottom: 5px;
+}
+
+ul {
+    font-weight: 300;
+    list-style-type: disc;
+    padding-left: 30px;
+
+}
+
+li {
+    margin-left: 10%;
+}
+
+li p {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#product-div div {
+    float: right;
+    margin-right: 20%;
+}
+
+@media screen and (max-width: 768px) {
+    #product-div div {
+        float: none;
+        margin-left: 0px;
     }
-       .nav-pills > li.active > a:hover {
-            background-color:#ffffff;
-            color:#49585b;
-        }
+}
+
+#descrip p {
+    padding-top: 5px;
+    font-family: serif;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+#descrip p span {
+    text-transform: none;
+}
+
+.paypal-button {
+    margin-left: 15px;
+}
+
+.image-gallery-text {
+    margin-right: 30px;
+    margin-left: 15px;
+    padding-top: 5px;
+}
+
+
+.image-gallery-text h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 15px;
+}
+
+.image-gallery-text p {
+    font-family: serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.image-gallery {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    margin-left: 10%;
+}
+
+.primary,
+.thumbnails {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.thumbnails {
+    width: auto;
+
+}
+
+.main {
+    padding: 10px;
+    margin-left: 10%;
+}
+
+.primary {
+    width: 95%;
+    height: 400px;
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.thumbnail:hover .thumbnail-image, .selected .thumbnail-image {
+    border: 4px solid #90d4ed;
+}
+
+.thumbnail-image {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.thumbnail {
+    border: 0 none;
+    box-shadow: none;
+    /*flex-grow: 1;*/
+    /*justify-content: center;*/
+    margin-right: 2%;
+}
+
+.title {
+    font-family: "Playfair Display SC";
+    color: #5f6a7b;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-weight: 600;
+    line-height: 1.125;
+}
+
+.FAQ {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-left: 0px;
+    margin-right: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.FAQ h2 {
+    font-family: "Playfair Display SC";
+    color: #5f6a7b;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.FAQ p {
+    font-family: serif;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.paypal-button {
+    background-repeat: no-repeat;
+    padding: 5px;
+}
+
+
+
+
