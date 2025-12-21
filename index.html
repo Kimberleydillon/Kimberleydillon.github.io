@@ -8,114 +8,16 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href='https://fonts.googleapis.com/css?family=Tangerine:400,700|Great+Vibes|Playfair+Display+SC:400,900,700'
           rel='stylesheet' type='text/css'>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('.thumbnail').on('click', function () {
-                let clicked = $(this);
-                let newSelection = clicked.data('big');
-                let $img = $('.primary').css("background-image", "url(" + newSelection + ")");
-                clicked.parent().find('.thumbnail').removeClass('selected');
-                clicked.addClass('selected');
-                $('.primary').empty().append($img.hide().fadeIn('slow'));
-            });
-        });
-    </script>
-    <script src="//widget.simplybook.me/v2/widget/widget.js" type="text/javascript"></script>
-<script type="text/javascript">
-    var widget = new SimplybookWidget({"widget_type":"iframe","url":"https:\/\/campin.simplybook.me","theme":"default","theme_settings":{"timeline_hide_unavailable":"1","hide_past_days":"0","timeline_show_end_time":"0","timeline_modern_display":"as_slots","sb_base_color":"#deb887","display_item_mode":"block","booking_nav_bg_color":"#6f7f5c","body_bg_color":"#f6f4ef","sb_review_image":"","dark_font_color":"#2f3e2e","light_font_color":"#f5fcff","btn_color_1":"#deb887","sb_company_label_color":"#2f3e2e","hide_img_mode":"1","show_sidebar":"1","sb_busy":"#c7b3b3","sb_available":"#8fae8f"},"timeline":"modern","datepicker":"top_calendar","is_rtl":false,"app_config":{"clear_session":0,"allow_switch_to_ada":0,"predefined":[]}});
-</script>
 </head>
 <body>
 <section class="hero is-medium">
     <div class="hero-body">
+        <script src="//widget.simplybook.me/v2/widget/widget.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var widget = new SimplybookWidget({"widget_type":"iframe","url":"https:\/\/campin.simplybook.me","theme":"default","theme_settings":{"timeline_hide_unavailable":"1","hide_past_days":"0","timeline_show_end_time":"0","timeline_modern_display":"as_slots","sb_base_color":"#deb887","display_item_mode":"block","booking_nav_bg_color":"#6f7f5c","body_bg_color":"#f6f4ef","sb_review_image":"","dark_font_color":"#2f3e2e","light_font_color":"#f5fcff","btn_color_1":"#deb887","sb_company_label_color":"#2f3e2e","hide_img_mode":"1","show_sidebar":"1","sb_busy":"#c7b3b3","sb_available":"#8fae8f"},"timeline":"modern","datepicker":"top_calendar","is_rtl":false,"app_config":{"clear_session":0,"allow_switch_to_ada":0,"predefined":[]}});
+</script>
     </div>
 </section>
-
-<div class="columns is-5">
-    <div class="column is-half" id="image-gallery-and-description">
-
-        <div class="image-gallery">
-            <main class="primary" style="background-image: url('images/coffee-pin-beans.png');"></main>
-            <aside class="thumbnails">
-                <a href="#" class="selected thumbnail" data-big="images/coffee-pin-beans.png">
-                    <div class="thumbnail-image" style="background-image: url('images/coffee-pin-beans.png')"></div>
-                </a>
-                <a class="thumbnail" data-big="images/cropped-hat-pin.png" href="#">
-                    <div class="thumbnail-image" style="background-image: url('images/cropped-hat-pin.png')"></div>
-                </a>
-                <a href="#" class="thumbnail" data-big="images/coffee-pins-coffee-cup.JPG">
-                    <div class="thumbnail-image"
-                         style="background-image: url('images/coffee-pins-coffee-cup.JPG')"></div>
-                </a>
-            </aside>
-        </div>
-        <div class="column is-center" id="product-div">
-            <div>
-                <header class="header is-large">
-                    <h1 class="title is-large is-bold">
-                        Product Description
-                    </h1>
-                </header>
-
-                <ul name="descrip_list" class="is-center" id="descrip">
-                    <li class="descrip_list_item"><p>1" color enamel pin</p></li>
-                    <li class="descrip_list_item"><p>Process: hard enamel</p></li>
-                    <li class="descrip_list_item"><p>Metal: brass</p></li>
-                    <li class="descrip_list_item"><p>Plating colour: silver</p></li>
-                    <li class="descrip_list_item"><p>Art <span>by</span> <a
-                            href="https://twitter.com/Featherweight_">Featherweight</a>
-                    </p></li>
-                    <li class="descrip_list_item"><p>Photos <span>by</span> <a href="https://twitter.com/SlyTQ">TQ </a>
-                    </p></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="column">
-        <div class="image-gallery-text">
-            <header class="header is-large" id="coffeePin">
-                <h1>
-                    Coffee Heart Pin
-                </h1>
-            </header>
-            <p> Pin: $12 USD</p>
-            <p> Worldwide Shipping: $5 USD</p>
-            <p>Taxes are included in purchase price</p>
-        </div>
-
-
-<!--            Paypal button when there are pins to sell again. -->
-                    <div class="paypal-button">
-            <!--            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">-->
-            <!--                <input type="hidden" name="cmd" value="_s-xclick">-->
-            <!--                <input type="hidden" name="hosted_button_id" value="9JDFRLSZATMM6">-->
-            <!--                <input type="image" src="https://i.postimg.cc/jS5sk8Dg/serge-store-button-buy.png" border="0"-->
-            <!--                       name="submit"-->
-            <!--                       alt="PayPal - The safer, easier way to pay online!">-->
-            <img src="images/sold-out.png" >
-            <!--                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">-->
-            <!--            </form>-->
-            <!--            <p><i>Clicking on Buy Now will redirect you to a secure PayPal checkout flow.</i></p>-->
-        </div>
-        <div class="FAQ">
-            <h2> FAQ </h2>
-
-            <p><strong>How long until my pin arrives?</strong></p>
-
-            <p>Your order will be sent through Standard mailing services. Please allow 2 weeks for delivery.</p>
-
-            <p><strong>Why is shipping $5 flat?</strong></p>
-
-            <p> It was too difficult to calculate shipping for every order individually, so we found a number that
-                averages out the cost, while keeping it as low as possible.</p>
-
-            <p><strong>Wait, does $5 shipping apply to me even if I live in 'X'?</strong></p>
-            <p> Yes.</p>
-        </div>
-    </div>
-</div>
 </body>
 </html>
 
