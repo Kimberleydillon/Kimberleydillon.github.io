@@ -11,61 +11,32 @@
 </head>
 
 <body>
-    <div class="hero-body">
-
-
-        <script src="https://www.bookingmood.com/js/resize.js"></script>
-        <iframe src="https://www.bookingmood.com/embed/3b777f83-d2bc-44df-9852-209c0d2a01c4?"
-            style="width:100%;border:none"></iframe>
-
-    </div>
-
     <div class="tent-aval-button">
-
-        <script src="https://www.bookingmood.com/js/embed.js"></script>
-        <script>
-            window.bmEmbeds = window.bmEmbeds || [];
-            bmEmbeds.push({
-                id: "3b777f83-d2bc-44df-9852-209c0d2a01c4",
-                layout: "side-tab",
-                backgroundColor: "#C9A66B",
-                color: "#000",
-                label: "Book Tent Site",
-                params: {
-                    autocompleteDateSelection: true,
-                    currency: "CAD",
-                    dateVisibility: "all",
-                    font: null,
-                    initialDate: "today",
-                    locale: "en-US",
-                    stayExpanded: false,
-                    size: "regular",
-                    theme: "modern",
-                    colorInfo: "2463eb",
-                    colorText: "1F2A1F",
-                    colorError: "C85C5C",
-                    showTotals: true,
-                    showYearly: false,
-                    colorBooked: "faa5a5",
-                    colorClosed: "3F4B3A",
-                    colorPrimary: "D9B98E",
-                    colorSurface: "EFE9E2",
-                    colorWarning: "E6B8A2",
-                    rateLocation: "inline",
-                    displayLegend: true,
-                    weekStartsOn: null,
-                    colorAvailable: "059669",
-                    colorTentative: "a75c03",
-                    rateVisibility: "available",
-                    numberOfMonths: null,
-                    colorUnavailable: "8E8E8E",
-                    intervalWrapStyle: "jagged",
-                    displayProductName: true,
-                    displayWeekNumbers: false,
-                    displayProductImages: false,
-                    firstWeekContainsDate: null,
+        <script type="text/javascript">
+            window.$bnbFormsBookingWidget || (
+                function (d, s) {
+                    window.$bnbBookingWidgetConfig = {
+                        uid: "3446",
+                        src: "https://bnbforms.com/103446",
+                        lang: "en_US",
+                        previewMode: true,
+                        button: {
+                            bgColor: "#1F4ACE",
+                            text: "Book Now",
+                            position: "top-right",
+                            tOffset: "100px"
+                        }
+                    };
+                    var src = "https://cdn.bnbforms.com/v1/main.js";
+                    var $ = d.createElement(s),
+                        e = d.getElementsByTagName(s)[0];
+                    $.async = true;
+                    $.setAttribute("charset", "utf-8");
+                    $.src = src;
+                    $.type = "text/javascript";
+                    e.parentNode.insertBefore($, e)
                 }
-            });
+            )(document, "script");
         </script>
     </div>
 </body>
